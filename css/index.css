@@ -1,11 +1,8 @@
 :root {
   --ubuntu-font: "ubuntu", sans-serif;
   --overpass-font: "Overpass", sans-serif;
-}
-
-body {
   font-size: 16px;
- }
+}
 
 h1 {
   letter-spacing: 0.1rem;
@@ -15,6 +12,10 @@ h1 {
 
 h2 .subtitle {
   font-family: "Ubuntu", sans-serif;
+}
+
+.has-text-VdarkBlue {
+  color: hsl(207, 13%, 34%);
 }
 
 .content h2.has-text-VDarkGreyBlue {
@@ -73,7 +74,7 @@ section.section.phones{
 .mobileUp {
   position: absolute;
   bottom: -40px;
-  left: 00px;
+  left: 0;
 }
 
 .navbar.is-transparent {
@@ -286,15 +287,11 @@ footer.footer li a:hover {
   }
 
   section.section {
-    padding: 0 8rem;
+    padding: 3rem 8rem;
   }
 
   section section.lessPadding {
     padding-right: 5rem;
-  }
-
-  section.section.phones{
-    margin-top: 8rem;
   }
 
   footer.footer .columns .column {
