@@ -43,9 +43,13 @@ header {
     border-bottom-left-radius: 60px;
   }
 
-  .marginTop {
+.marginTop {
     margin-top: 1.5rem;
   }
+
+section.section .container {
+  font-size: 1.5rem;
+}
 
 section.section.phones{
   background:
@@ -182,7 +186,6 @@ section.section.phones{
 .has-text-lightRed:hover {
   background-color: hsl(355, 100%, 74%);
   color: #fff;
-  border: none;
 }
 
 footer.footer {
@@ -270,6 +273,10 @@ footer.footer li a:hover {
 
 @media ( min-width :769px ) {
 
+  section.section .container {
+    font-size: 2rem;
+  }
+
   picture.sectionEditor img {
     position: relative;
     overflow: visible;
@@ -283,15 +290,10 @@ footer.footer li a:hover {
     overflow: visible;
     left: -355px;
     max-width: 600px;
-    top: 00px;
   }
 
   section.section {
     padding: 3rem 8rem;
-  }
-
-  section section.lessPadding {
-    padding-right: 5rem;
   }
 
   footer.footer .columns .column {
